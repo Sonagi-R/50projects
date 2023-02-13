@@ -1,0 +1,22 @@
+body{
+    display: flex;
+    padding: 50px;
+    margin: 0px 50px;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    height: 90vh;
+    overflow: hidden;
+}
+
+img{
+    height: 750px;
+    width: 125px;
+    object-fit: cover;
+    border-radius: 60px;
+    transition: 1s;
+}
+
+.active{
+    flex-grow: 1;
+}
