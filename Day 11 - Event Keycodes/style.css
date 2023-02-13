@@ -1,0 +1,42 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    height: 90vh;
+    background-color: lightcoral;
+}
+
+div{
+    height: 80px;
+    width: 150px;
+    display: none;
+}
+
+h1{
+    background-color: white;
+    font-size: larger;
+    height: 75px;
+    line-height: 75px;
+    width: 500px;
+    text-align: center;
+    border: 1px solid grey;
+    transform: translateY(50px);
+}
+
+h2{
+    font-size: medium;
+    text-align: center;
+    color: white;
+}
+
+.visual{
+    height: 75px;
+    line-height: 75px;
+    width: 150px;
+    background-color: white;
+    text-align: center;
+    justify-content: center;
+    font-size: larger;
+    font-weight: 700;
+}

@@ -1,0 +1,29 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: darkslateblue;
+    height: 90vh;
+    
+}
+
+form{
+    height: 300px;
+    width: 300px;
+    background-color: cornflowerblue;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+#emailWave{
+    display: flex;
+    font-size: small;
+}
+
+h2{
+    transition: all 0.2s ease-out;
+}

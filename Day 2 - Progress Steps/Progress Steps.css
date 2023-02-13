@@ -1,0 +1,73 @@
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    flex-direction: row;
+    height: 500px;
+    width: 100%;
+    overflow: hidden;
+    flex-wrap: wrap;
+}
+
+div{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.step{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 1px solid lightgray;
+    z-index: 2;
+}
+
+.progress{
+    width: 200px;
+    height: 5px;
+    border: 1px;
+    background-color: lightgray;
+    transform: translateY(-25px);
+    z-index: 1;
+}
+
+.active{
+    border-color: rgb(77, 147, 226);
+    transition: background-color 1s;
+}
+
+.activeProgress{
+    background-color: rgb(77, 147, 226);
+    transition: background-color 1s ease-out;
+    
+}
+
+.selections{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: start;
+}
+
+button{
+    width: 100px;
+    height: 40px;
+    margin: 10px;
+    background-color: rgb(77, 147, 226);
+    color: white;
+    border-radius: 10px;
+}
+
+button[disabled]{
+    background-color: lightgray;
+    color: white;
+}
+
+ .step.a{
+    border-color: rgb(77, 147, 226);
+}
+

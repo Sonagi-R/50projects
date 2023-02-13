@@ -1,0 +1,29 @@
+body{
+    background-image: url("Seattle.jpg");
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    filter: blur(50px);
+}
+
+
+
+h1{
+    color: white;
+    font-size: large;
+    z-index: 3;
+    width: 300px;
+    background-color: green;
+    text-align: center;
+}
+
+body.fadeOut{
+    transition: all 10s;
+    filter: blur(0px);
+    opacity: 0;
+}

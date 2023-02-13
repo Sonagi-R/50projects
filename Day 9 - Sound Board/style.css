@@ -1,0 +1,16 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
+    background-color: plum;
+    height: 90vh;
+}
+
+button{
+    width: 80px;
+    height: 50px;
+    color: white;
+    background-color: purple;
+}

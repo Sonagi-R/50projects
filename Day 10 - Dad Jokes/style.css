@@ -1,0 +1,43 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: indigo;
+    height: 90vh;
+}
+
+div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 10px;
+    padding: 25px;
+    height: 250px;
+    width: 750px;
+}
+
+h2{
+    height: 30px;
+    color: grey;
+    font-size: large;
+}
+
+h3{
+    height: 100px;
+    font-size: x-large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 200;
+    text-align: center;
+}
+
+button{
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    width: 200px;
+    color: white;
+    background-color: blueviolet;
+    margin-bottom: 10px;
+}

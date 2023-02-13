@@ -1,0 +1,44 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: bisque;
+    gap: 25px;
+}
+
+.container{
+    width: 500px;
+    background-color: white;
+    padding-left: 20px;
+    border-radius: 5px;
+    border: 1px solid grey;
+}
+
+h1{
+    font-weight: 500;
+    margin-bottom: 0;
+    margin-top: 50px;
+}
+
+h2{
+    height: 50px;
+    display: inline-block;
+    font-size: x-large;
+    font-weight: 400;
+    width: 400px;
+}
+
+h3{
+    font-size: large;
+    font-weight: 400;
+    margin-top: 0;
+}
+
+button{
+    position: fixed;
+    transform: translateY(20px);
+}
+
+.hidden{
+    display: none;
+}
