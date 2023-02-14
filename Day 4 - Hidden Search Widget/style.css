@@ -1,0 +1,29 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    background-color: rgb(119,92,240);
+}
+
+#searchBar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+input{
+    height: 25px;
+    width: 180px;
+}
+
+#searchIcon{
+    height: 30px;
+    width: 30px;
+}
+
+.hidden{
+    display: none;
+    transition: 1s;
+}
