@@ -1,0 +1,42 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+    background-size: 100vw 100vh;
+    margin: 0;
+}
+
+.arrow{
+    height: 50px;
+    width: 50px;
+    border: 1px solid yellow;
+}
+
+#focusBackground{
+    height: 70vh;
+    width: 70vw;
+    background-size: 100vw 100vh;
+    background-position: center;
+}
+
+.firstBackground{
+    background-image: url('lewis-bd-P5VBp8C_F9U-unsplash.jpg');
+}
+
+.secondBackground{
+    background-image: url('sam-goodgame-F3yBQrqZzfM-unsplash.jpg');
+}
+
+.thirdBackground{
+    background-image: url('marek-piwnicki-04P38oaPUsU-unsplash.jpg');
+}
+
+.fourthBackground{
+    background-image: url('bernd-dittrich-FcVTXqDFBWE-unsplash.jpg');
+}
+
+.fifthBackground{
+background-image: url('wolfgang-hasselmann-brmewoW0OcU-unsplash.jpg');
+}
